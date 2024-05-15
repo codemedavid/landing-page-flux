@@ -10,6 +10,7 @@ function Card() {
       <Header />
       <Hero/>
       <Superman/>
+    
        <div className='flex pt-20 h-[500px]'>
        <div className=' text-lg  px-16  font-bold mr-16 text-blue-800 flex '> 
        <div className='  ml-16  w-[600px] h-[300px] flex'>
@@ -18,7 +19,7 @@ function Card() {
        
         <div className='text-5xl font-semibold mt-3  '>
         <p className='text-lg    font-bold ml-24 text-blue-800  '> CATEGORIZE YOUR EXPENSES</p> 
-        <p className='text-5xl font-semibold mt-3 ml-24 w-[450px]  '>Personalized  Expense Categorization  <p className='font-normal text-lg pt-4 text-blue-500'>
+        <p className='text-5xl font-semibold mt-3 ml-24 w-[450px]  '>Personalized  Expense Categorization  <p className='font-normal text-lg pt-4 text-gray-600'>
         Our expense tracker app allows you to personalize
          and track exactly where your money goes, empowering you to
           manage your finances with precision and ease.</p></p>

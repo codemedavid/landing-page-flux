@@ -1,7 +1,9 @@
 import React from 'react'
 import myImages from '../aaa.jpg';
+import dashboard from './dashboard.jpeg'
 function Superman() {
     return (
+
         <div className='w-full bg-[#f9f4ef]' >
         <div className='flex bg-blue-800 pt-14 h-[500px]'>
        <div className=' text-lg  px-16  font-bold ml-16 text-[#F9F7F0]   '> 
@@ -12,7 +14,7 @@ function Superman() {
          It helps us keep <br/> track of our expenses easily and understand where<br/> our money goes,
           making it simple to manage our finances.</p></p>
         <div className='  ml-32  w-[600px] h-[400x] '>
-             <img src={myImages} alt="description"/>
+             <img src={dashboard} alt="description"/>
          </div>             
           </div>
         </div>

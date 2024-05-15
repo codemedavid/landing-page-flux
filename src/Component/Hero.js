@@ -9,7 +9,7 @@ import GithubLogo from './react5.png'
 import InertiaLogp from './react6.png'
 function Hero() {
   return (
-   <div className='ml-24 pt-8 flex mb-28 h-[70vh] bg-[#f9f4ef]'>
+   <div className='ml-24 pt-8 flex mb-28 h-[85vh] bg-[#f9f4ef] w-auto'>
       <div className='text-blue-800 text-5xl pl-16 pt-14  font-bold  '> 
          <p className=''>The Expense Tracker you'll ever need</p> 
             <div className=''>
@@ -34,10 +34,11 @@ function Hero() {
                      <img src={GithubLogo}  className='h-20  object-contain' alt="" />
                      <img src={InertiaLogp}  className='h-20 object-contain ' alt="" />
                   </div>
+          
             </div>
       </div>
-      <div className='ml-10  w-full  relative'>
-         <img src={dashboard} alt="description" className='absolute right-0 h-[62vh] shadow-2xl bg-white p-2 mr-[-15vw]'/>
+      <div className='ml-10  w-full overflow-hidden relative'>
+         <img src={dashboard} alt="description" className='absolute right-0 h-[70vh] shadow-2xl bg-white p-2 mr-[-15vw]'/>
       </div>
    </div>
   )
